@@ -1,0 +1,30 @@
+
+
+
+  .code-editor-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .react-simple-code-editor textarea {
+    outline: none;
+    border: none;
+  }
+  
+  .react-simple-code-editor pre {
+    margin: 0;
+    outline: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  /* Override PrismJS styles to remove unwanted background and padding */
+  .token.operator,
+  .token.punctuation {
+    background: none;
+    padding: 0;
+  }
+  
+  
+  
